@@ -25,3 +25,23 @@ a{
     text-decoration: none;
     color: black;
 }
+.page_acceuil{
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    margin-top: 100px;
+}
+
+.presentation{
+    width: 500px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.presentation h2{
+    font-size: 32px;
+}
+
+.presentation p{
+    font-size: 22px;
+}
