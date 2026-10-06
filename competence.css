@@ -25,3 +25,46 @@ a{
     text-decoration: none;
     color: black;
 }
+
+
+.programation div{
+    height: 50px;  
+    border: 1px solid black;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.programation .trois_quart {
+    background: linear-gradient(
+        90deg,
+        #00b4d8 0%,
+        #00b4d8 60%,
+        white 100%
+    );
+}
+
+.programation .demi {
+    background: linear-gradient(
+        90deg,
+        #00b4d8 0%,
+        #00b4d8 40%,
+        white 85%
+    );
+}
+
+.programation .un_quart {
+    background: linear-gradient(
+        90deg,
+        #00b4d8 0%,
+        #00b4d8 25%,
+        white 60%
+    );
+}
+.programation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
