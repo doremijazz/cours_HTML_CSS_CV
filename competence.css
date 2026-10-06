@@ -25,14 +25,25 @@ a{
     text-decoration: none;
     color: black;
 }
+h1{
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 
+    width: 90%;
+    margin: 10px auto;
+}
 
 .programation div{
-    height: 50px;  
+    height: 30px;  
     border: 1px solid black;
-    width: 800px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;     /* vertical */
     margin-left: 5px;
     padding: 5px;
 }
@@ -67,4 +78,6 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 20px;
+    
 }
