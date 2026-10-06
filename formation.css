@@ -25,3 +25,15 @@ a{
     text-decoration: none;
     color: black;
 }
+h1{
+    text-align: center;
+}
+
+main{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    font-size: large;
+    width: 90%;
+    margin: 50px auto;
+}
