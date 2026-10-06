@@ -1,0 +1,7 @@
+.banniere{
+  background: linear-gradient(140deg, #00b4d8 0%, #ffffff 100%);
+  height: 150px;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
