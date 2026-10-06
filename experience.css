@@ -1,0 +1,27 @@
+.banniere{
+  background: linear-gradient(140deg, #00b4d8 0%, #ffffff 100%);
+  height: 150px;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
+nav{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    background-color: darkgrey;
+    
+}
+a{
+    display: block;
+    display: flex;
+    width: 125px;
+    height: 25px;
+    border: 1px solid black;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
